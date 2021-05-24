@@ -1,0 +1,94 @@
+/*
+全体
+****/
+.container {
+    display: flex;
+    justify-content: center;
+}
+.side {
+    width: 90px;
+}
+.main {
+    width: calc(100% - 90px);
+    max-width: 600px;
+    border-left: 1px solid #eef;
+    border-right: 1px solid #eef;
+    text-align: left;
+}
+.nav-link {
+    padding: .3rem .3rem;
+}
+
+.btn{
+    background-color: #1af;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+
+/*
+サイド
+****/
+.side .side-inner {
+    top: 0px;
+    padding-top: 20px;
+    position: sticky;
+    height: 100vh;
+    text-align: center;
+}
+.side .side-inner img {
+    width: 35%;
+    margin-bottom: 15px;
+}
+.side .side-inner img.icon {
+    width: 70%;
+}
+.side .side-inner img.post-tweet {
+    width: 80%;
+}
+.side .side-inner .my-icon {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.side .side-inner .my-icon img {
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    width: 60%;
+}
+
+
+
+/*
+メイン
+****/
+
+.main .main-header{
+
+    padding: 20px;
+    
+    border-bottom: 1px solid #eee;
+}
+
+.main .main-header h1{
+    font-size: 20px;
+
+    line-height: 20px;
+
+    margin-bottom: 0;
+
+    font-weight: bold;
+}
+
+
+/*
+ホーム
+ホーム
+****/
+
+
