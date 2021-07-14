@@ -4,8 +4,8 @@
 
 <head>
     <?php include_once('../Views/common/head.php'); ?>
-    <title>ホーム画面/Twitterクローン</title>
-    <meta name="description" content="ホーム画面です">
+    <title>つぶやく画面/Twitterクローン</title>
+    <meta name="description" content="つぶやく画面です">
 </head>
 
 <body class="home">
@@ -14,11 +14,12 @@
 
         <div class="main">
             <div class="main-header">
-                <h1>ホーム</h1>
+                <h1>つぶやく</h1>
             </div>
+
             <div class="tweet-post">
                 <div class="my-icon">
-                    <img src="<?php echo HOME_URL; ?>views\img_uploaded\user\sample-person.jpg" alt="">
+                    <img src="<?php echo htmlspecialchars($view_user['image_path']); ?>views\img_uploaded\user\sample-person.jpg" alt="">
                 </div>
             </div>
             <div class="input-area">
@@ -34,18 +35,8 @@
             </div>
 
             <div class="ditch"></div>
-
-        <?php if (empty($view_tweets)): ?>
-            <p class="p-3">ツイートがまだありません</p>
-        <?php else : ?>
-            <div class="tweet-list">
-            <?php foreach ( $view_tweets as $view_tweet): ?>
-                <?php include('../Views/common/tweet.php'); ?>
-            <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
+        </div>
     </div>
-</div>
 <?php include_once('../Views/common/foot.php'); ?>
 </body>
 
