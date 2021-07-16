@@ -20,7 +20,6 @@ if (!$user) {
     exit;
 }
 
-
 //画面表示
 $view_user = $user;
 
