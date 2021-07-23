@@ -11,7 +11,7 @@
 
 <body class="home search text-center">
     <div class ="container">
-         <?php include_once('../Views/common/side.php'); ?>
+        <?php include_once('../Views/common/side.php'); ?>
 
         <div class="main">
             <div class="main-header">

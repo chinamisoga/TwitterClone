@@ -167,6 +167,7 @@ a {
     flex-grow: 1;
 }
 
+/*
 .home .tweet-post .input-area textarea {
     border: 0;
     width: 100%;
@@ -177,6 +178,20 @@ a {
 .home .tweet-post .input-area textarea:focus {
     outline: none;
 }
+
+*/
+
+.home .input-area textarea {
+    border: 0;
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.home .input-area textarea:focus {
+    outline: none;
+}
+
 
 .home .tweet-post .input-area .bottom-area {
     display: flex;

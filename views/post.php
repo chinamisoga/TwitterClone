@@ -33,7 +33,6 @@
                     </div>
                 </form>
             </div>
-
             <div class="ditch"></div>
         </div>
     </div>

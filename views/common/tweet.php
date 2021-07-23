@@ -19,9 +19,9 @@
         <?php endif; ?>
 
         <div class="icon-list">
-            <div class="like js-like" data-tweet-id="<?php echo htmlspecialchars($view_tweet['tweet_id']); ?>" data-like-id="<?php echo htmlspecialchars($view_tweet['like_id']); ?>">
+            <div class="like js-like" data-tweet-id="<?php echo htmlspecialchars($view_tweet['tweet_id']); ?>" data-like-id="<?php echo htmlspecialchars($view_tweet['Like_id']); ?>">
             <?php
-            if(isset($view_tweet['like_id'])) {
+            if(isset($view_tweet['Like_id'])) {
                 //いいね！している場合
                 echo '<img src ="' .HOME_URL . 'views\img\icon-heart-twitterblue.svg" alt="">';
             }else{
